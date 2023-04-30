@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "LocyCodeDev.github.io",
-  "proxy": "https://cors-anywhere.herokuapp.com/https://www.dhlottery.co.kr",
+  "proxy": "https://www.dhlottery.co.kr",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

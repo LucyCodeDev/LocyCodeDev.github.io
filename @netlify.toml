@@ -1,0 +1,5 @@
+[[redirects]]
+from = '/lotto_proxy/*'
+to = 'https://dhlottery.co.kr/api/common.do:splat'
+status = 200
+force = true

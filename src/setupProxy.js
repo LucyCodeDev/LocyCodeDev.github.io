@@ -7,7 +7,7 @@ module.exports = function (app) {
       target: "https://www.dhlottery.co.kr",
       changeOrigin: true,
       pathRewrite: {
-        "^/api": "",
+        "^/api": "/common.do",
       },
     })
   );
