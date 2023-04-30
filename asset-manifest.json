@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/LocyCodeDev.github.io/static/css/main.890ea0db.css",
-    "main.js": "/LocyCodeDev.github.io/static/js/main.b993c9b6.js",
+    "main.js": "/LocyCodeDev.github.io/static/js/main.7e58f1ef.js",
     "static/js/787.faea1ec6.chunk.js": "/LocyCodeDev.github.io/static/js/787.faea1ec6.chunk.js",
     "static/media/qrcode.png": "/LocyCodeDev.github.io/static/media/qrcode.09b1ea4f009e3746f86d.png",
     "static/media/lotto.png": "/LocyCodeDev.github.io/static/media/lotto.bf9bccccbe24877ef4f0.png",
     "index.html": "/LocyCodeDev.github.io/index.html",
     "main.890ea0db.css.map": "/LocyCodeDev.github.io/static/css/main.890ea0db.css.map",
-    "main.b993c9b6.js.map": "/LocyCodeDev.github.io/static/js/main.b993c9b6.js.map",
+    "main.7e58f1ef.js.map": "/LocyCodeDev.github.io/static/js/main.7e58f1ef.js.map",
     "787.faea1ec6.chunk.js.map": "/LocyCodeDev.github.io/static/js/787.faea1ec6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.890ea0db.css",
-    "static/js/main.b993c9b6.js"
+    "static/js/main.7e58f1ef.js"
   ]
 }
