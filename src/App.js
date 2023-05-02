@@ -146,6 +146,7 @@ function App() {
           <span style={{ marginLeft: "10px" }}>보너스 번호: {lastRoundData.bnusNo}</span>
         </div>
       </div>
+      ㄴ{" "}
     </div>
   );
 }
