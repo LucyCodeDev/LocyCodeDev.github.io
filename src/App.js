@@ -27,7 +27,7 @@ function App() {
   }, []);
   // 회차 데이터를 가져오는 함수
   const fetchLastRoundData = useCallback(async (round) => {
-    const url = `http://localhost:5000/api?method=getLottoNumber&drwNo=${round}`;
+    const url = `api?method=getLottoNumber&drwNo=${round}`;
     const headers = { "X-Requested-With": "xhr" };
     const response = await fetch(url, { headers });
     const data = await response.json();
