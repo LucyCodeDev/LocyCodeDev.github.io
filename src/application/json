@@ -1,0 +1,9 @@
+const requestOptions = {
+  method: "GET",
+  headers: { "Content-Type": "application/json", Accept: "application/json" },
+};
+
+fetch("https://example.com/api", requestOptions)
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error(error));

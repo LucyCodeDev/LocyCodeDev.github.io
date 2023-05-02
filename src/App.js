@@ -42,6 +42,19 @@ function App() {
     const weeksDifference = Math.round(daysDifference / 7);
     return weeksDifference + 1;
   };
+  const getRoundNumberByDate = (date) => {
+    // 2002년 12월 7일부터 현재까지의 주차 수 계산
+    const weeksDifference = Math.floor((date - new Date(2002, 11, 7)) / (7 * 24 * 60 * 60 * 1000)) + 1;
+
+    // 4월 23일부터 5월 3일까지의 주차 수 계산
+    const initialWeeksDifference =
+      Math.floor((new Date(2023, 3, 23) - new Date(2002, 11, 7)) / (7 * 24 * 60 * 60 * 1000)) + 1;
+
+    // 현재 회차 번호 계산
+    const currentRoundNumber = weeksDifference - initialWeeksDifference + 1064;
+    return currentRoundNumber;
+  };
+
   // 지급 기한을 구하는 함수
   const getPaymentDeadline = (drawDate) => {
     const deadlineDate = new Date(drawDate);
@@ -91,7 +104,7 @@ function App() {
             <img src={qrcode} alt="qrcode" width="80" height="80" className="qrcode" />
           </div>
           <div className="dateArea">
-            <h2>제 {lastRoundData.drwNo + 1} 회</h2>
+            <h2>제 {getRoundNumberByDate(drawDate)} 회</h2>
             <ul>
               <li>발행일: {formatDate(currentDateTime, true)}</li>
               <li>추첨일: {formatDate(drawDate)}</li>
@@ -119,7 +132,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <button className="button" onClick={handleClick}>
         번호 생성
       </button>
