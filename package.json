@@ -2,7 +2,7 @@
   "name": "lotto-number-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "LucyCodeDev.github.io",
+  "homepage": "https://lucycodedev.github.io/",
   "proxy": "https://www.dhlottery.co.kr",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
